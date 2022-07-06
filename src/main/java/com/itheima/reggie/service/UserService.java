@@ -3,12 +3,11 @@ package com.itheima.reggie.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.itheima.reggie.dto.SetmealDto;
 import com.itheima.reggie.entity.Setmeal;
+import com.itheima.reggie.entity.User;
 
 import java.util.List;
 
-public interface SetmealService extends IService<Setmeal> {
+public interface UserService extends IService<User> {
 
-    void removeWithDish(List<Long> ids);
 
-    void saveWithDish(SetmealDto setmealDto);
 }

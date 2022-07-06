@@ -14,6 +14,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class ReggieApplicaion {
     public static void main(String[] args) {
         SpringApplication.run(ReggieApplicaion.class,args);
-        log.info("nihao");
+//        log.info("nihao");
     }
 }
